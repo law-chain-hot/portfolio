@@ -1,0 +1,18 @@
+.projectHead {
+    color: #FFE400;
+    font-weight: 700;
+    font-size: 5em;
+    font-family: 'Tomorrow', sans-serif;
+
+    
+
+
+}
+
+@media screen and (max-width: 992px) {
+    .projectHead {
+        text-align: center;
+        font-size: 3em;
+
+    }
+  }

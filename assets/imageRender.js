@@ -1,1 +1,0 @@
-export const img1 = require('./download-2.png')

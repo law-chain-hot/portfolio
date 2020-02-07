@@ -20,10 +20,11 @@ code {
 
 .bar-shadow{
   z-index: 2;
-  /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.514); */
+  /* box-shadow: 1px 3px 10px rgba(107, 107, 107, 0.514); white */
+  box-shadow: 1px 3px 10px rgba(22, 22, 22, 0.856);
   position: sticky;
   top: 0;
-  /* background:rgb(207, 77, 29) !important; */
+  background:#181818fa !important;
 }
 
 * {

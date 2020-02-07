@@ -6,7 +6,7 @@
 
   color: #d1d1d1;
   position: sticky;
-  top: 60px;
+  top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,21 +19,21 @@
   font-weight: 800;
 }
 
-.avatar-info .name span{
-    color: white;
+.avatar-info .name span {
+  color: white;
 }
 
 .avatar-info p {
   text-align: right;
   margin-bottom: 1px;
-  font-family: 'Electrolize', sans-serif;
+  font-family: "Electrolize", sans-serif;
   font-weight: 500;
   font-size: 1em;
 }
 
 .avatar-info p span {
-    font-size: .9em;
-  }
+  font-size: 0.9em;
+}
 
 .avatar-info .name-chinese {
   font-family: "Ma Shan Zheng", cursive;
@@ -42,9 +42,38 @@
 }
 
 .avatar-info p span .white {
-    color:whitesmoke;
+  color: whitesmoke;
 }
 
+.avatar-info .link-group {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.link-icon {
+  transition: transform 0.3;
+  margin-left: 12px;
+}
+
+.fab {
+  font-size: 32px;
+  color: firebrick;
+  transition: transform 0.9;
+}
+.fas {
+  font-size: 32px;
+  color: firebrick;
+  transition: transform 0.9;
+}
+
+.fab:hover {
+  color: darkred;
+}
+
+.fas:hover {
+    color: darkred;
+  }
 
 /* font-family: 'Special Elite', cursive;
 font-family: 'Kalam', cursive;
@@ -65,7 +94,19 @@ font-family: 'Lalezar', cursive; */
     text-align: center;
   }
 
-  .avatar-info p span{
+  .avatar-info p span {
     text-align: center;
+  }
+
+  .avatar-info .name {
+    font-size: 1.8em;
+  }
+
+  .avatar-info .link-group {
+    align-items: center;
+  }
+
+  .tooltip {
+    font-size: 200px;
   }
 }

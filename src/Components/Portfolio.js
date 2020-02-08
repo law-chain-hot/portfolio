@@ -9,10 +9,12 @@ import './Portfolio.css'
 import Avatar from './Avatar'
 import Projects from './Projects'
 import ProjectsHead from './ProjectsHead'
-import AboutHead from './AboutHead'
+import HistoryHead from './HistoryHead'
 import AvatarInfo from './AvatarInfo'
-import { Switch, Route } from 'react-router-dom'
+import { HashRouter, Switch, Route, BrowserRouter as Router , Redirect} from 'react-router-dom'
 import NavComponent from './NavComponent'
+import History from './History'
+
 
 class Portfolio extends React.Component {
 
@@ -21,13 +23,13 @@ class Portfolio extends React.Component {
             return (
                 <Container>
                     <Row>
-                        <Col md={12} lg={4} className='left-col'>
+                        <Col sm={12} md={4} className='left-col'>
                             <Avatar />
                             <AvatarInfo />
                         </Col>
 
 
-                        <Col md={12} lg={8} className='right-col'>
+                        <Col sm={12} md={8} className='right-col'>
                             <ProjectsHead />
                             <Projects />
                         </Col>
@@ -36,18 +38,18 @@ class Portfolio extends React.Component {
             );
         }
 
-        const AboutPage = () => {
+        const HistoryPage = () => {
             return (
                 <Container>
                     <Row>
-                        <Col md={12} lg={4} className='left-col'>
+                        <Col sm={12} md={4} className='left-col'>
                             <Avatar />
                             <AvatarInfo />
                         </Col>
 
-
-                        <Col md={12} lg={8} className='right-col'>
-                            <AboutHead />
+                        <Col sm={12} md={8} className='right-col'>
+                            <HistoryHead />
+                            <History />
                         </Col>
                     </Row>
                 </Container>
@@ -56,13 +58,16 @@ class Portfolio extends React.Component {
 
         return (
             <div>
+                
+                <HashRouter >
                 <NavComponent />
-                <HomePage/>
-                {/* <HomePage/> */}
-                {/* <Switch> */}
-                    {/* <Route exact path='/portfolio' component={HomePage} /> */}
-                    {/* <Route exact path='/portfolio#about' component={AboutPage} /> */}
-                {/* </Switch> */}
+                    {/* <HomePage/> */}
+                    <Switch>
+                        <Route exact path='/home' component={HomePage} />
+                        <Route exact path='/history' component={HistoryPage} />
+                        <Redirect to='/home'/>
+                    </Switch>
+                </HashRouter>
             </div>
 
         )

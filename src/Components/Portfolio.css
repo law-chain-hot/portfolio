@@ -4,7 +4,7 @@ body {
   /* background-color: #272727; */
   /* background-color: #303030; */
   color: rgb(224, 224, 224);
-  text-shadow: 1px 1px 1px black;
+  /* text-shadow: 1px 1px 1px black; */
   font-family: 'Rambla', sans-serif !important;
 }
 
@@ -39,13 +39,19 @@ body {
   display: none;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   .right-col {
-    padding: 0 2em;
+    padding: 0 .5em;
   }
 
   .left-col {
     /* background-color: burlywood; */
     margin-bottom: 30px;
+  }
+
+
+  .projects {
+    padding: 15px;
+    margin: 10px;
   }
 }

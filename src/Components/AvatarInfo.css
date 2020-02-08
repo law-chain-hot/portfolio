@@ -78,7 +78,7 @@
 /* font-family: 'Special Elite', cursive;
 font-family: 'Kalam', cursive;
 font-family: 'Lalezar', cursive; */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   .avatar-info {
     align-items: center;
     /* margin: 0px; */
@@ -100,6 +100,7 @@ font-family: 'Lalezar', cursive; */
 
   .avatar-info .name {
     font-size: 1.8em;
+    text-align: center;
   }
 
   .avatar-info .link-group {

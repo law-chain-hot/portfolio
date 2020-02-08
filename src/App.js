@@ -3,7 +3,7 @@ import './App.css';
 
 // import NavComponent from './Components/NavComponent';
 import Portfolio from './Components/Portfolio';
-import { BrowserRouter as Router } from 'react-router-dom'
+// import { BrowserRouter as Router } from 'react-router-dom'
 
 
 

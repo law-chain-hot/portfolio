@@ -4,12 +4,16 @@
     font-size: 5em;
     font-family: 'Tomorrow', sans-serif;
 
-    
-
 
 }
 
-@media screen and (max-width: 992px) {
+
+hr {
+    background-color: gray;
+    border: 1px;
+    height: 1px;
+}
+@media screen and (max-width: 768px) {
     .projectHead {
         text-align: center;
         font-size: 2.5em;

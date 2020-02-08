@@ -1,0 +1,15 @@
+.about h2 {
+    font-size: 1em
+}
+
+.about .skill-time p {
+    font-size: .9em;
+}
+
+.about {
+    margin-bottom: 50px !important;
+}
+
+.about .skill-time{
+    margin-bottom: 1px;
+}

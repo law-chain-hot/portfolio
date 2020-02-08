@@ -50,7 +50,7 @@ function Avatar() {
                 </MyTooltip>
                 <MyTooltip title="(￣▽￣)╯  Resume_QianhaoLuo" arrow placement="bottom-end">
                     <a href={resume} className="link-icon">
-                        <i class="fas fa-user-astronaut"></i>
+                        <i className="fas fa-user-astronaut"></i>
                     </a>
                 </MyTooltip>
             </div>

@@ -5,6 +5,9 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 // import 'font-awesome/css/font-awesome.css';
 
+// import deployDriver from './JS/driverContent'
+// import { deployDriver } from './JS/deployDriver'
+
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
@@ -14,13 +17,7 @@ serviceWorker.unregister();
 
 
 
-console.log('#')
-console.log('##')
-console.log('###')
 
-console.log('Hire me?')
-console.log('Feel free to contact me: ww6652890@gmail.com')
 
-console.log('###')
-console.log('##')
-console.log('#')
+
+

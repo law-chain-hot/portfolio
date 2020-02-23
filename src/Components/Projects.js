@@ -2,12 +2,50 @@ import React from 'react'
 // import { Image } from 'react-bootstrap'
 import './Projects.css'
 
-import { img1, img2, img3, img5 } from './../assets/imageRender'
+import { img1, img2, img3, img5, img6_luoblog, img7_npm_mkguide} from './../assets/imageRender'
 
 function Projects() {
     return (
         <div className='projects'>
             <hr />
+
+            <div className='project-container'>
+                <h2> [NPM] MK-Guide </h2>
+                <div className="skill-time">
+                    <p className="project-skill"> npm package </p>
+                    <p className="project-time">February 2020</p>
+                </div>
+                <a href="https://www.npmjs.com/package/mk-guide" >
+                    <img src={img7_npm_mkguide} alt='' className="project-img" />
+                </a>
+                <div className="project-description">
+                    <ul>
+                        <li> A light JavaScript library to guide the user to focus the important part, including fix element </li>
+                        <li> Theme, color and mode are in-progress </li>
+                        <li> Get more by clicking the right image </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div className='project-container'>
+                <h2> Luo's Blog </h2>
+                <div className="skill-time">
+                    <p className="project-skill"> Node, Express, MongoDB, HTML, CSS, JavaScript </p>
+                    <p className="project-time">February 2020</p>
+                </div>
+                <a href="http://118.31.9.121/posts" >
+                    <img src={img6_luoblog} alt='' className="project-img" />
+                </a>
+                <div className="project-description">
+                    <ul>
+                        <li> User could log in, log up or post articles on this blog </li>
+                        <li> Comments, edit, delete were established </li>
+                        <li> Cloud Server: Alibaba Cloud </li>
+                    </ul>
+                </div>
+            </div>
+
+
             <div className='project-container'>
                 <h2> Restaurant / Llama Homepage </h2>
                 <div className="skill-time">

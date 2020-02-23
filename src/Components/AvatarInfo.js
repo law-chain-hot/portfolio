@@ -4,7 +4,8 @@ import './AvatarInfo.css'
 
 import Tooltip from '@material-ui/core/Tooltip';
 import { withStyles } from '@material-ui/core/styles';
-import {resume} from './../assets/imageRender'
+import { resume } from './../assets/imageRender'
+import Button from './Button'
 
 function Avatar() {
 

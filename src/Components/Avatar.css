@@ -1,19 +1,23 @@
 .avatar {
-  margin-top: 38px;
+  /* margin-top: 38px; */
   margin-bottom: 20px;
   /* background-color: plum; */
   background-color: #272727;
+  color: rgba(255, 255, 255, 0.425);
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
-
   /* position: sticky; */
+}
 
+.button-ui {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .avatar .avatar-img{
     width: 70%;
-    top: 60px;
+    /* margin-top: 38px; */
     border-radius: 3px;
 }
 

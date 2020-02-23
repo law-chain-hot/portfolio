@@ -11,9 +11,11 @@ import Projects from './Projects'
 import ProjectsHead from './ProjectsHead'
 import HistoryHead from './HistoryHead'
 import AvatarInfo from './AvatarInfo'
-import { HashRouter, Switch, Route, BrowserRouter as Router , Redirect} from 'react-router-dom'
+import { HashRouter, Switch, Route, BrowserRouter as Router, Redirect } from 'react-router-dom'
 import NavComponent from './NavComponent'
 import History from './History'
+
+
 
 
 class Portfolio extends React.Component {
@@ -56,23 +58,25 @@ class Portfolio extends React.Component {
             );
         }
 
+
+
         return (
             <div>
-                
+
                 <HashRouter >
-                <NavComponent />
+                    <NavComponent />
                     {/* <HomePage/> */}
                     <Switch>
                         <Route exact path='/home' component={HomePage} />
                         <Route exact path='/history' component={HistoryPage} />
-                        <Redirect to='/home'/>
+                        <Redirect to='/home' />
                     </Switch>
                 </HashRouter>
             </div>
 
         )
     }
-
 }
+
 
 export default Portfolio;

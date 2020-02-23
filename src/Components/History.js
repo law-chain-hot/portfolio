@@ -9,6 +9,20 @@ function History() {
             <hr />
 
             <div className='project-container about'>
+                <h2> 02/14 2020 </h2>
+                <div className="skill-time">
+                    <p className="project-skill"> Driver.js </p>
+                    <p className="project-time"></p>
+                </div>
+                <div className="project-description">
+                    <ul>
+                        <li> Added driver.js to show the feature introductions to guide the user about the feature.</li>
+                        <li> At the same time, use cookie to decide whether we use the introduction. Store the cookie for 1 day. </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div className='project-container about'>
                 <h2> 02/08 2020 </h2>
                 <div className="skill-time">
                     <p className="project-skill"> image-webpack-loader </p>

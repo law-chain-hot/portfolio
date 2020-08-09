@@ -30,9 +30,9 @@ function Avatar() {
         <div className='avatar-info'>
             <h2 className='name-chinese'> 罗千皓 </h2>
             <h2 className='name'> <span>Q</span>ianhao <span>L</span>uo </h2>
-            <p> Master student </p>
+            {/* <p>  </p> */}
+            <p> <strong className="white">@</strong> Engineering Master Student</p>
             <p> <span><strong className="white">@</strong> University of Illinois at Urbana-Champaign</span></p>
-            <p> <strong className="white">@</strong> Agricultural and Biological Engineering</p>
             <p> <strong className="white">@</strong> Expectation Graduation: Dec 2020</p>
             <br />
             <p> ww6652890 <strong className="white">[at]</strong> gmail <strong className="white">[dot]</strong> com</p>
@@ -49,11 +49,11 @@ function Avatar() {
                         <i className="fab fa-linkedin"></i>
                     </a>
                 </MyTooltip>
-                <MyTooltip title="(￣▽￣)╯  Resume_QianhaoLuo" arrow placement="bottom-end">
+                {/* <MyTooltip title="(￣▽￣)╯  Resume_QianhaoLuo" arrow placement="bottom-end">
                     <a href={resume} className="link-icon">
                         <i className="fas fa-user-astronaut"></i>
                     </a>
-                </MyTooltip>
+                </MyTooltip> */}
             </div>
 
             {/* <a href="https://github.com/law-chain-hot" className="link-icon">

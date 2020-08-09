@@ -2,7 +2,7 @@ import React from 'react'
 // import { Image } from 'react-bootstrap'
 import './Projects.css'
 
-import { img1, img2, img3, img5, img6_luoblog, img7_npm_mkguide} from './../assets/imageRender'
+import { img1, img2, img3, img5, img6_luoblog, img7_npm_mkguide, img8_floating} from './../assets/imageRender'
 
 function Projects() {
     return (
@@ -10,7 +10,29 @@ function Projects() {
             <hr />
 
             <div className='project-container'>
-                <h2> [NPM] MK-Guide </h2>
+                <h2> Floating Message * </h2>
+                <div className="skill-time">
+                    <p className="project-skill"> React, Redux, Express, MongoDB, JWT </p>
+                    <p className="project-time">June 2020</p>
+                </div>
+                <a href="https://mysterious-caverns-42891.herokuapp.com/" >
+                    <img src={img8_floating} alt='' className="project-img" />
+                </a>
+                <div className="project-description">
+                    <ul>
+                        <li> A website for users to exchange messages randomly</li>
+                        <li> Implemented the server-side using the Express framework </li>
+                        <li> Implemented the client-side using React, Redux, Hooks, and Material-UI </li>
+                        <li> Utilized MongoDB Atlas and Mongoose to store the user information and messages </li>
+                        <li> Enable the website to support the social media account authentication using Auth0 </li>
+                        <li> Implemented the JSON Web Token based on middleware Passport to persist state of users </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div className='project-container'>
+                <h2> [NPM] MK-Guide * </h2>
                 <div className="skill-time">
                     <p className="project-skill"> npm package </p>
                     <p className="project-time">February 2020</p>

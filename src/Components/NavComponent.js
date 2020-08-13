@@ -10,7 +10,7 @@ import Button from './Button'
 
 function NavComponent() {
     return (
-        <Navbar bg="dark" expand="sm" variant="dark" className='bar-shadow'>
+        <Navbar id='nav-bar' bg="dark" expand="sm" variant="dark" className='bar-shadow'>
             <Navbar.Brand className='brand-words' href="https://law-chain-hot.github.io/portfolio/">Luo's portfolio</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

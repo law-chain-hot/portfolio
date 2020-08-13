@@ -1,5 +1,6 @@
 import React from 'react';
 import driver from './driverContent'
+import mkGuide from './testMkGuide'
 import CheckCookie from './checkCookie'
 
 // import Mask from './MaskClass'
@@ -39,7 +40,8 @@ window.onload = function () {
     // console.log('check.checkCookie():', check.checkCookie())
     if (check.checkCookie()){
         console.log('driver, called')
-        driver();
+        // driver();
+        mkGuide()
         check.setCookie("gznotes-visited", "true", 1)
     }
 }

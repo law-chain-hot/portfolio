@@ -29,7 +29,7 @@ function Avatar() {
 
         <div className='avatar-info'>
             <h2 className='name-chinese'> 罗千皓 </h2>
-            <h2 className='name'> <span>Q</span>ianhao <span>L</span>uo </h2>
+            <h2 className='name'> <span>B</span>rian <span>L</span>uo </h2>
             {/* <p>  </p> */}
             <p id='driver-test'> <strong className="white">@</strong> Engineering Master Student</p>
             <p> <span><strong className="white">@</strong> University of Illinois at Urbana-Champaign</span></p>

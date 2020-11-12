@@ -15,7 +15,7 @@ function Projects() {
                     <p className="project-skill"> React, Redux, Express, MongoDB, JWT </p>
                     <p className="project-time">June 2020</p>
                 </div>
-                <a href="https://mysterious-caverns-42891.herokuapp.com/" >
+                <a href="https://floating-message.com" >
                     <img src={img8_floating} alt='' className="project-img" />
                 </a>
                 <div className="project-description">
